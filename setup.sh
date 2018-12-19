@@ -1,6 +1,9 @@
 #!/bin/sh
 sudo apt-get install -y vim
 sudo apt-get install tmux
+mkdir -p ~/dotfiles/colors
+mkdir -p ~/dotfiles/ftdetect
+mkdir -p ~/dotfiles/i
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/colors ~/.vim
 ln -sf ~/dotfiles/ftdetect ~/.vim
